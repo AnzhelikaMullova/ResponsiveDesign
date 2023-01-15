@@ -1,0 +1,72 @@
+.main {
+    background-color: blanchedalmond;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    min-height: 100vh;
+
+
+}
+
+.aside {
+    background-color: aquamarine;
+    width: 40%;
+}
+
+.header {
+    background-color: aqua;
+    flex: 0 0 content;
+    font-size: 2vw;
+}
+
+
+
+.footer {
+    background-color: blue;
+    flex: 0 0 content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2vw;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    border: 1px solid red;
+    width: 45%;
+    font-size: 2vw;
+
+}
+
+
+.last {
+    border: 1px solid red;
+    width: 45%;
+    font-size: 2vw;
+
+}
+
+
+.last1 {
+    border: 1px solid red;
+    width: 45%;
+    font-size: 2vw;
+
+
+}
+
+.pict {
+
+    max-width: 100%;
+}
+
+.pictfilm {
+    width: 50%;
+}
